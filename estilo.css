@@ -14,18 +14,23 @@ p {
     font-size: 40%;
     font-style: inherit;
     background-color:black;
-    margin: 1%;
+    margin: 1%auto;
 }
 
 #galeria{
     background-color:rgb(0, 0, 0);
-    width: 100vw;
+    width: 90vw;
     border:solid rgb(250, 241, 224) 5px;
-    display: flex;
-   
+    display:flex;
     justify-content: space-around;
 }
+#galeria:hover {
+    background-color:rgb(250, 241, 224);
+}
+
 .foto{
-    width: 37%;
-  
+    width: 93%;
+    display:block;
+    margin: 0%auto ;
+
 }
